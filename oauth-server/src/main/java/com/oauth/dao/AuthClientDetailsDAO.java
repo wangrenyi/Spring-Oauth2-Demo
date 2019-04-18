@@ -2,10 +2,10 @@ package com.oauth.dao;
 
 import org.springframework.stereotype.Repository;
 
+import com.base.persistence.mybatis.BaseDAO;
 import com.oauth.mapper.AuthClientDetailsMapper;
 import com.oauth.table.AuthClientDetails;
 import com.oauth.table.AuthClientDetailsExample;
-import com.tech.base.persistence.mybatis.BaseDAO;
 
 @Repository
 public class AuthClientDetailsDAO

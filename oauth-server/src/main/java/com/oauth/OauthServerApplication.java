@@ -7,15 +7,11 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
-@ComponentScan("com.oauth.**")
-public class JwtResourcesServerApplication extends SpringBootServletInitializer {
+@ComponentScan({"com.oauth.**", "com.base.**"})
+public class OauthServerApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(JwtResourcesServerApplication.class, args);
+        SpringApplication.run(OauthServerApplication.class, args);
     }
 
-    // @Bean
-    // public BCryptPasswordEncoder bCryptPasswordEncoder() {
-    // return new BCryptPasswordEncoder();
-    // }
 }

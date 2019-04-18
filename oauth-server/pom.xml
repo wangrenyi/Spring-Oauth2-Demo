@@ -9,11 +9,11 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.oath</groupId>
-	<artifactId>jwt-server</artifactId>
+	<groupId>com.oauth</groupId>
+	<artifactId>oauth-server-demo</artifactId>
 	<version>0.0.1</version>
-	<name>jwt-server</name>
-	<description>spring boot security jwt server</description>
+	<name>oauth-server-demo</name>
+	<description>spring boot security oauth-server-demo</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -63,9 +63,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.tech</groupId>
-			<artifactId>base-persistence-mybatis</artifactId>
-			<version>2.0.0</version>
+			<groupId>com.base</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
