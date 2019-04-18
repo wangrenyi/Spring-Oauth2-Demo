@@ -1,6 +1,6 @@
 # Spring-Oauth2-Demo
-1.token存储在redis中，需要先安装redis /n
-2.使用mysql数据库，需要安装mysql，并执行resource db下 rbac_db.sql文件 /n
+1.token存储在redis中，需要先安装redis 
+2.使用mysql数据库，需要安装mysql，并执行resource db下 rbac_db.sql文件 
 3.使用mybatis
 4.运行demo中oauth-server，oauth-resource-server
 5.测试密码登陆模式
