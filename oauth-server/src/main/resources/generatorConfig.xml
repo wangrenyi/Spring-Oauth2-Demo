@@ -10,7 +10,7 @@
 		<property name="endingDelimiter" value="`" />
 
 		<plugin
-			type="com.tech.base.persistence.mybatis.generator.FuzzySearchPlugin" />
+			type="com.base.persistence.mybatis.generator.FuzzySearchPlugin" />
 
 		<commentGenerator>
 			<property name="suppressAllComments" value="true" />
